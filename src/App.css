@@ -1,3 +1,40 @@
-.App {
+.app {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
   text-align: center;
+}
+
+.titles {
+  line-height: 0.5;
+}
+
+.primary {
+  border: 1px solid blue;
+  width: 45%;
+  margin: 100px;
+}
+
+.social, .bio {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.social {
+  border: 1px solid green;
+}
+
+.views {
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  border: 1px solid purple;
+  width: 50%;
+}
+
+.viewcontent {
+  line-height: 1.5;
 }
