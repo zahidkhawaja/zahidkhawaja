@@ -7,7 +7,7 @@ function App() {
       <div className = "primary">
         <div className = "titles">
         <h1>Zahid Khawaja</h1>
-        <p>Web developer in Atlanta</p>
+        <h2>Web developer in Atlanta</h2>
         </div>
         <nav className = "social">
           <a href = "https://twitter.com/wizkhawaja">Twitter</a>
