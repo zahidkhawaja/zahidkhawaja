@@ -13,7 +13,7 @@ function App() {
 
       <Switch>
 
-        <Route path = "/about-site">
+        <Route path = "/website">
         <Header/>
         <About/>
         </Route>
