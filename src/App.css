@@ -16,6 +16,17 @@
   color: gray;
 }
 
+.nav {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.switch {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
 .primary {
   width: 650px;
 }
