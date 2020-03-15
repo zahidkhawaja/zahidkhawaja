@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Nav from "./components/Nav";
 
 function App() {
   return (
@@ -14,16 +15,19 @@ function App() {
       <Switch>
 
         <Route path = "/website">
+        <Nav/>
         <Header/>
         <About/>
         </Route>
 
         <Route path = "/skills">
+        <Nav/>
         <Header/>
         <Skills/>
         </Route>
 
         <Route path = "/">
+        <Nav/>
         <Header/>
         <Intro/>
         </Route>
