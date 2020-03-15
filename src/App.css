@@ -58,6 +58,10 @@
   background-color: #32CD32;
 }
 
+.active p {
+  color: white;
+}
+
 .views {
   display: flex;
   justify-content: center;

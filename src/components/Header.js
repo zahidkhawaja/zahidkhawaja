@@ -19,9 +19,9 @@ const Header = () => {
         </nav>
         <div className = "views">
         <nav className = "bio">
-        <NavLink activeClassName = "active" exact={true} to = "/">Intro</NavLink>
-        <NavLink activeClassName = "active" to = "/skills">Skills</NavLink>
-        <NavLink activeClassName = "active" to = "/website">Website</NavLink>
+        <NavLink activeClassName = "active" exact={true} to = "/"><p>Intro</p></NavLink>
+        <NavLink activeClassName = "active" to = "/skills"><p>Skills</p></NavLink>
+        <NavLink activeClassName = "active" to = "/website"><p>Website</p></NavLink>
         </nav>
         </div>
         </div>
