@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDarkMode } from "../hooks/useDarkMode";
+import Switch from '@material-ui/core/Switch';
 
 const Nav = () => {
     const [darkMode, setDarkMode] = useDarkMode();
@@ -11,7 +12,7 @@ const Nav = () => {
 
     return (
         <div className = "nav">
-            <button onClick = {toggleDarkMode}>Dark Mode</button>
+            <Switch checked = {darkMode} color = "secondary" onClick = {toggleDarkMode} ></Switch>
         </div>
     )
 }
