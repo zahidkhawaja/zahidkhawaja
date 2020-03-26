@@ -55,6 +55,17 @@
   padding: 0px 20px 0px 20px;
 }
 
+.projectslist {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.projectslist a {
+  color: #32CD32;
+  margin: 2.5px;
+}
+
 .active {
   background-color: #32CD32;
 }

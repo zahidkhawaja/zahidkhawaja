@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Random from "./components/Random";
 import Nav from "./components/Nav";
 
 function App() {
@@ -20,10 +20,10 @@ function App() {
         <Projects/>
         </Route>
 
-        <Route path = "/skills">
+        <Route path = "/random">
         <Nav/>
         <Header/>
-        <Skills/>
+        <Random/>
         </Route>
 
         <Route path = "/">
