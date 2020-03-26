@@ -3,7 +3,7 @@ import './App.css';
 import { Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
-import About from "./components/About";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Nav from "./components/Nav";
 
@@ -14,10 +14,10 @@ function App() {
 
       <Switch>
 
-        <Route path = "/website">
+        <Route path = "/projects">
         <Nav/>
         <Header/>
-        <About/>
+        <Projects/>
         </Route>
 
         <Route path = "/skills">

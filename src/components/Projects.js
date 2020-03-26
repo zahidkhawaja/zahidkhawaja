@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const Projects = () => {
     return (
         <div className = "viewcontent">
         <p>This site was built using React.</p>
@@ -8,4 +8,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Projects;
