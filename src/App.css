@@ -127,6 +127,7 @@
   .bio a {
     width: 50px;
     padding: 0px 25px 0px 25px;
+    margin: 10px 20px 2px 20px;
   }
   .social a {
     padding: 5px;
@@ -135,6 +136,6 @@
   }
   .projectslist a {
     width: 90%;
-    margin: 5px;
+    margin: 7.5px;
   }
 }
