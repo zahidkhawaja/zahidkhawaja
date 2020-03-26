@@ -41,6 +41,10 @@
   color:#32CD32;
 }
 
+.social a:hover, .projectslist a:hover {
+  color: rgb(60, 235, 60);
+}
+
 .bio a {
   text-decoration: none;
   border: 1px solid gray;
@@ -55,6 +59,18 @@
   padding: 0px 20px 0px 20px;
 }
 
+.active {
+  background-color: #32CD32;
+}
+
+.active:hover {
+  background-color: #32CD32 !important;
+}
+
+.bio a:hover {
+  background-color: rgba(128, 128, 128, 0.11);
+}
+
 .projectslist {
   display: flex;
   flex-direction: column;
@@ -64,10 +80,6 @@
 .projectslist a {
   color: #32CD32;
   margin: 2.5px;
-}
-
-.active {
-  background-color: #32CD32;
 }
 
 .active p {
