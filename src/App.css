@@ -92,7 +92,7 @@
 }
 
 .bio {
-  width: 50%;
+  width: 650px;
 }
 
 .viewcontent {
@@ -122,10 +122,10 @@
   }
   .bio {
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
   }
   .bio a {
-    width: 50px;
+    width: 70px;
     padding: 0px 25px 0px 25px;
     margin: 10px 20px 2px 20px;
   }
