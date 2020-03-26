@@ -107,3 +107,34 @@
   background-color: black;
   color: white;
 }
+
+@media (max-width: 600px) {
+  .primary {
+    width: 90%;
+  }
+  .titles h2 {
+    line-height: 1.2;
+  }
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .bio {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .bio a {
+    width: 50px;
+    padding: 0px 25px 0px 25px;
+  }
+  .social a {
+    padding: 5px;
+    margin: 5px;
+    line-height: 0.5;
+  }
+  .projectslist a {
+    width: 90%;
+    margin: 5px;
+  }
+}
