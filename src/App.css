@@ -50,13 +50,12 @@
   border: 1px solid gray;
   color: gray;
   border-radius: 20px;
-  width: 100px;
+  width: 125px;
   height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px 20px 0px 20px;
-  padding: 0px 20px 0px 20px;
 }
 
 .active {
@@ -125,9 +124,7 @@
     width: 100%;
   }
   .bio a {
-    width: 70px;
-    padding: 0px 25px 0px 25px;
-    margin: 10px 20px 2px 20px;
+    width: 115px;
   }
   .social a {
     padding: 5px;
