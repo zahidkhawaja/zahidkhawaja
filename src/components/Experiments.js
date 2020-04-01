@@ -5,10 +5,10 @@ import Slider from '@material-ui/core/Slider';
 
 const Experiments = () => {
 
-    const [randomNumber, setRandomNumber] = useState(300);
+    const [particleCount, setParticleCount] = useState(300);
 
     const handleChanges = (event, value) => {
-        setRandomNumber(value);
+      setParticleCount(value);
     }
 
     const useStyles = makeStyles((theme) => ({
@@ -54,12 +54,12 @@ const Experiments = () => {
 
     return (
         <div className = "viewcontent">
-            <ParticlesComponent randomNumber = {randomNumber} />
+            <ParticlesComponent particleCount = {particleCount} />
             <div className = "particlecount">
-            <p>Particle count: {randomNumber}</p>
+            <p>Particle count: {particleCount}</p>
             <div className = "slider">
             <div className = {classes.root}>
-            <PrettoSlider name = "slider" defaultValue={randomNumber} min={0}
+            <PrettoSlider name = "slider" defaultValue={particleCount} min={0}
         max={1000} step={1} onChangeCommitted={handleChanges} />
         </div>
             </div>

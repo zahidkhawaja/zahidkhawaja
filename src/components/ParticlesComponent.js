@@ -16,7 +16,7 @@ const ParticlesComponent = props => (
       params={{
         particles: {
           number: {
-            value: props.randomNumber,
+            value: props.particleCount,
             density: {
               enable: true,
               value_area: 1803.4120608655228
