@@ -50,12 +50,12 @@
   border: 1px solid gray;
   color: gray;
   border-radius: 20px;
-  width: 125px;
+  width: 135px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 20px 0px 20px;
+  margin: 10px;
 }
 
 .active {
@@ -113,7 +113,7 @@
 }
 
 .particlecount {
-  margin: 30px;
+  margin: 20px;
 }
 
 @media (max-width: 600px) {
@@ -133,7 +133,7 @@
     width: 100%;
   }
   .bio a {
-    width: 115px;
+    width: 125px;
   }
   .social a {
     padding: 5px;

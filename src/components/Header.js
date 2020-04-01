@@ -21,7 +21,7 @@ const Header = () => {
         <nav className = "bio">
         <NavLink activeClassName = "active" exact={true} to = "/"><p>Intro</p></NavLink>
         <NavLink activeClassName = "active" to = "/projects"><p>Projects</p></NavLink>
-        <NavLink activeClassName = "active" to = "/random"><p>Random</p></NavLink>
+        <NavLink activeClassName = "active" to = "/experiments"><p>Experiments</p></NavLink>
         </nav>
         </div>
         </div>

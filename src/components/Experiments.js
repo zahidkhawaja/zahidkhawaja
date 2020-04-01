@@ -3,7 +3,7 @@ import ParticlesComponent from "./ParticlesComponent";
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 
-const Random = () => {
+const Experiments = () => {
 
     const [randomNumber, setRandomNumber] = useState(300);
 
@@ -68,4 +68,4 @@ const Random = () => {
     )
 }
 
-export default Random;
+export default Experiments;
