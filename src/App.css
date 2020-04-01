@@ -58,22 +58,6 @@
   margin: 10px 20px 0px 20px;
 }
 
-.generatebutton {
-  background-color: tomato;
-  border: tomato;
-  border-radius: 20px;
-  color: white;
-  outline: none;
-  padding: 6px 10px 6px 10px;
-  font-size: 0.7rem;
-  font-family: 'Overpass Mono', monospace;
-}
-
-.generatebutton:hover {
-  background-color: rgba(255, 99, 71, 0.822);
-  border: rgba(255, 99, 71, 0.822);
-}
-
 .active {
   background-color: #32CD32;
 }
@@ -121,6 +105,15 @@
 .darkmode {
   background-color: black;
   color: white;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.particlecount {
+  margin: 30px;
 }
 
 @media (max-width: 600px) {
