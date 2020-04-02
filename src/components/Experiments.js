@@ -3,7 +3,7 @@ import ParticlesComponent from "./ParticlesComponent";
 import { PrettoSlider, useStyles } from "./SliderStyles";
 
 const Experiments = () => {
-    const [particleCount, setParticleCount] = useState(500);
+    const [particleCount, setParticleCount] = useState(0);
     const classes = useStyles();
 
     const handleChanges = (event, value) => {
