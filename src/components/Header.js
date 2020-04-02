@@ -8,7 +8,7 @@ const Header = () => {
         <div className = "titles">
             <img className = "zahid" src = {Zahid} alt = "zahid"/>
         <h1>Zahid Khawaja</h1>
-        <h2>Web developer in Atlanta</h2>
+        <h2 id = "description">Web developer in Atlanta</h2>
         </div>
         <nav className = "social">
           <a href = "https://twitter.com/wizkhawaja">Twitter</a>

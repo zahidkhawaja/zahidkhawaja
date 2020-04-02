@@ -55,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 7.5px 7.5px 0px 7.5px;
 }
 
 .active {
@@ -129,8 +129,11 @@
   .primary {
     width: 90%;
   }
+  .titles {
+    line-height: 0.5;
+  }
   .titles h2 {
-    line-height: 1.2;
+    line-height: 1.3;
   }
   .social {
     display: flex;
@@ -143,6 +146,7 @@
   }
   .bio a {
     width: 125px;
+    margin: 7.5px;
   }
   .social a {
     padding: 5px;
@@ -156,5 +160,8 @@
   .particles {
     display: flex;
     justify-content: space-evenly;
+  }
+  .nav {
+    margin-bottom: 50px;
   }
 }
