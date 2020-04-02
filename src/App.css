@@ -153,4 +153,8 @@
     width: 90%;
     margin: 5px;
   }
+  .particles {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
