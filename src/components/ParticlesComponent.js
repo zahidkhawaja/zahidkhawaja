@@ -2,16 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 
 const ParticlesComponent = props => (
-  <div
-    style={{
-      position: "absolute",
-      zIndex: -1,
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%"
-    }}
-  >
+  <div className = "particles">
     <Particles
       params={{
         particles: {
@@ -124,15 +115,7 @@ const ParticlesComponent = props => (
         retina_detect: true
       }}
     />
-    <div
-    style={{
-      position: "absolute",
-      top: 0,
-      left: 0,
-      width: "100%",
-      height: "100%"
-    }}
-  >
+    <div className = "particles">
     {props.children}
   </div>
   </div>
