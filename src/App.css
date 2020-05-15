@@ -125,6 +125,26 @@
   height: 100%;
 }
 
+.overclock {
+  background-color: tomato;
+  border: tomato;
+  border-radius: 20px;
+  color: white;
+  outline: none;
+  padding: 6px 10px 6px 10px;
+  font-size: 0.7rem;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.overclock:hover {
+  background-color: rgba(255, 99, 71, 0.822);
+  border: rgba(255, 99, 71, 0.822);
+}
+
+.terminate {
+  color: red;
+}
+
 @media (max-width: 600px) {
   .primary {
     width: 90%;
