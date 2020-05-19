@@ -131,8 +131,9 @@
   border-radius: 20px;
   color: white;
   outline: none;
-  padding: 6px 10px 6px 10px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  width: 40%;
+  height: 30px;
   font-family: 'Overpass Mono', monospace;
 }
 
@@ -142,7 +143,13 @@
 }
 
 .terminate {
-  color: red;
+  color: tomato;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.terminate:hover {
+  color: rgba(255, 99, 71, 0.822);
 }
 
 @media (max-width: 600px) {
