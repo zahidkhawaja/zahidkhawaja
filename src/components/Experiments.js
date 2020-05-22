@@ -27,7 +27,7 @@ const Experiments = () => {
         }}>OVERCLOCK</button> 
         : null}
         <br/>
-        {overclocked ? <NavLink className = "terminate" exact={true} to = "/"><p>STOP</p></NavLink> : null}
+        {particleCount > 1250 ? <div className = "terminatecontainer"><NavLink className = "terminate" exact={true} to = "/"><p>STOP</p></NavLink></div> : null}
         </div>
         </div>
         </div>
