@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 
 const Experiments = () => {
     const [particleCount, setParticleCount] = useState(0);
-    const [overclocked, setOverclocked] = useState(false);
     const classes = useStyles();
 
     const handleChanges = (event, value) => {
@@ -21,11 +20,7 @@ const Experiments = () => {
             <div className = {classes.root}>
             <PrettoSlider name = "slider" defaultValue={particleCount} min={0} max={1000} step={1} onChangeCommitted={handleChanges} />
         {particleCount >= 1000 ? 
-        <button className = "overclock" onClick = {() => {
-            setParticleCount(particleCount + 250);
-            setOverclocked(true); 
-        }}>OVERCLOCK</button> 
-        : null}
+        <button className = "overclock" onClick = {() => setParticleCount(particleCount + 250)}>OVERCLOCK</button> : null}
         <br/>
         {particleCount > 1250 ? <div className = "terminatecontainer"><NavLink className = "terminate" exact={true} to = "/"><p>STOP</p></NavLink></div> : null}
         </div>
