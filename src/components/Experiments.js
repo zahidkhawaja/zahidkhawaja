@@ -22,7 +22,7 @@ const Experiments = () => {
         {particleCount >= 1000 ? 
         <button className = "overclock" onClick = {() => setParticleCount(particleCount + 250)}>OVERCLOCK</button> : null}
         <br/>
-        {particleCount > 1250 ? <div className = "terminatecontainer"><NavLink className = "terminate" exact={true} to = "/"><p>STOP</p></NavLink></div> : null}
+        {particleCount > 1000 ? <div className = "terminatecontainer"><NavLink className = "terminate" exact={true} to = "/"><p>STOP</p></NavLink></div> : null}
         </div>
         </div>
         </div>
