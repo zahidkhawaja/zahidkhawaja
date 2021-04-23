@@ -14,7 +14,7 @@ const Header = () => {
           <a href = "https://twitter.com/wizkhawaja">Twitter</a>
           <a href = "https://github.com/zahidkhawaja">GitHub</a>
           <a href = "https://www.linkedin.com/in/zahidkhawaja">LinkedIn</a>
-          <a href = "https://hackernoon.com/@zahid">Hacker Noon</a>
+          <a href = "https://soundcloud.com/wizkhawaja">SoundCloud</a>
           <a href = "mailto:zahidkhawaja@icloud.com">Email</a>
         </nav>
         <div className = "views">
